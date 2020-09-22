@@ -1,1 +1,1 @@
-# bootstrabSoloProject
+# bootstrab Solo Project
