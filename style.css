@@ -1,9 +1,5 @@
 html, body {
-    /*position:fixed;*/
-    /*top:0;*/
-    /*bottom:0;*/
-    left:0;
-    right:0;
+   
     background-color: #f4f4f4;
 }
 
@@ -13,16 +9,18 @@ html, body {
 
 /* Header */
 .header {
-        height: 120px;
+        height: 100px;
         width: auto;
         padding-left: 65px;
         padding-right: 65px;
         background-color: #ffffff;
-        border-radius: 170% / 190%;
+        border-radius: 50% / 70%;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
-        border-bottom-right-radius: 170% 180%;
-        transform: scale(1.01);
+        border-bottom-right-radius: 198% 73%;;
+        position: fixed;
+        top: 0;
+        width: 100%
 }
 
 .header1 {
@@ -31,6 +29,7 @@ html, body {
         justify-content: space-between;
         align-items: center;
         background-color: #ffffff;
+        padding-top: 20px;
 }
 
 .list-logo {
@@ -38,8 +37,9 @@ html, body {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: baseline;
+        align-items: flex-end;
         background-color: #ffffff;
+        position: unset
 }
 
 .logo {
@@ -47,7 +47,7 @@ html, body {
     width: 112px;
     height: 43px;
     object-fit: contain;
-    padding-top: 5px;
+    padding-bottom: 6px;
 }
 
 ul {
@@ -65,10 +65,15 @@ ul {
 
 .head-ul {
      background-color: #fff;
+        flex-direction: row;
+        justify-content: space-between;
 }
 
 .head-ul li {
         background-color: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
 .logo {
@@ -79,7 +84,7 @@ ul {
 
 .search {
         display: block;
-        background-image: url(https://cdn4.iconfinder.com/data/icons/round-mobile-ui-set/512/letter-message-email-mail-20.png);
+        /*background-image: url(https://cdn4.iconfinder.com/data/icons/round-mobile-ui-set/512/letter-message-email-mail-20.png);*/
         background-position: 10px center;
         background-repeat: no-repeat;
         background-color: #f4f4f4;
@@ -106,6 +111,14 @@ ul {
     display: flex;
     justify-content: space-between;
 }    
+
+.text-center {
+    border: 1px solid #e8e8e8;
+    border-radius: 23.5px;
+    width: 138px;
+    font-weight: bold;
+    align-items: center;
+}
 
 
     /*programmes*/
@@ -148,6 +161,12 @@ footer {
 
 a {
     color: #000;
+    text-decoration:none;
+}
+
+a:hover {
+   text-decoration:underline;
+   color: grey;
 }
 
 .copy {
